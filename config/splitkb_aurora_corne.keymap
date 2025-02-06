@@ -42,11 +42,6 @@
                 };
                 //&mo 3
                 raise_layer {
-// -----------------------------------------------------------------------------------------
-// |  TAB |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  | BKSP |
-// | CTRL |     |     |     |     |     |   |  -  |  =  |  [  |  ]  |  \  |  "   |
-// | SHFT |     |     |     |     |     |   |  _  |  +  |  {  |  }  | "|" |  ~   |
-//                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
    &kp  TAB       &kp EXCL     &kp AT_SIGN  &kp HASH     &kp DOLLAR   &kp PERCENT               &kp AMPERSAND     &kp ASTERISK           &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EQUAL        &kp BSPC
    &kp LCTRL      &trans       &trans       &trans       &trans       &trans                    &kp MINUS         &kp &trans             &kp &trans            &kp &trans             &kp GREATER_THAN &kp GRAVE
